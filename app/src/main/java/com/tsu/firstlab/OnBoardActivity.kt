@@ -36,8 +36,7 @@ class OnBoardActivity : AppCompatActivity() {
             }
             else{
                 binding.buttonNext.text = getString(R.string.onboard_button1)
-            }
-        }
+            }}
         })
 
         binding.buttonNext.setOnClickListener {
