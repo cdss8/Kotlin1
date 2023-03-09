@@ -36,7 +36,9 @@ class SignUpActivity : AppCompatActivity() {
         }
 
         binding.backButton.setOnClickListener{
-            super.onBackPressed()
+             val intent = Intent(this, OnBoardActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
